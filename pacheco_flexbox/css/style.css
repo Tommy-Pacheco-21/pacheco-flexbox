@@ -1,0 +1,56 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1f2933;
+  line-height: 1.5;
+  padding: 0 24px 40px;
+  background: radial-gradient(rgb(162, 227, 253), rgb(89, 159, 250));
+  
+}
+/* Section 1 — Nav bar (based on Nav Bar preset) */
+.navbar {
+  display: flex; /* Enables the use of flexbox commands */
+  justify-content: space-between; /* with space-between enabled, The brand name and the navlinks are seperated from opposite sides of the web page */
+  align-items: center;
+  padding: 8px;
+  background-color: aqua;
+  border-radius: 4px;
+  box-shadow: rgb(30, 122, 184) 4px 8px;
+  /* padding, background, color */
+}
+.navlinks {
+  display: flex;
+  gap: 24px; /* gap allows for the individual navlinks more space between each other, preventing clutter and overlapping */
+  list-style: circle;
+  margin: 16px;
+  padding: 4px;
+
+  /* gap, list-style, margin, padding */
+}
+/* Section 2 — Centered hero */
+.hero {
+  display: flex;
+  justify-content: center; /* justify-content aligns the text horizontally */
+  align-items: center; /* align-items aligns the text vertically */
+  min-height: 300px;
+  background-color: aquamarine;
+  border-radius: 4px;
+  box-shadow: rgb(30, 184, 184) 4px 8px;
+  /* background, color */
+}
+/* Section 3 — Responsive card row */
+.card-row {
+  display: flex; /*CSS lab 4 preset*/
+  flex-wrap: wrap; /*CSS lab 4 preset*/
+  gap: 16px; /*CSS lab 4 preset*/
+  justify-content: flex-end; /* With flex-start, items are located at the beginning of the main axis. This is the default setting for justify-content */
+}
+.card {
+  flex: 1 1 240px;
+  background-color: rgb(66, 231, 231);
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: rgb(30, 115, 184) 4px 8px;
+  /* background, padding, border-radius */
+}
